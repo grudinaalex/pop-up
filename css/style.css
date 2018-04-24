@@ -1,0 +1,282 @@
+
+.container{
+    max-width: 966px;
+    width: 100%;
+    margin: auto;
+    max-height: 12px;
+    height: 100%;
+    background-color: #ffffff;
+
+}
+.container1-1{
+    width: 100%;
+    margin: auto;
+    background-color: #e5e7e6;
+
+
+}
+.container1-1-1{
+    background-color: #e5e7e6;
+    max-width: 966px;
+    margin: auto;
+
+}
+
+.logo{
+    margin: 25px 53px;
+}
+
+
+
+.search{
+    padding: 6px 10px;
+    margin-top: 52px;
+    background-color: #333639;
+    color: #6e7072;
+    border-radius: 50px 50px 50px 50px;
+    float: right;
+}
+.container-2{
+    width: 100%;
+    margin: auto;
+    background-color: #262626;
+    display: inline-block;
+
+}
+
+ul.list{
+    max-width: 966px;
+    float: left;
+    display: inline;
+    margin: auto;
+    padding: 20px;
+}
+
+
+
+
+ul li{
+
+    display: inline-block;
+    margin-right: 39px;
+
+
+}
+.baner{
+
+
+    background: #d0002f;
+
+    position: relative;
+    z-index: 1;
+
+
+
+ }
+.item{
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    max-width:966px;
+    width: 100%;
+
+}
+.fon{
+    width: 100%;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.text{
+
+    display: inline-block;
+    position: absolute;
+    z-index: 3;
+    max-height: 267px;
+    height: 100%;
+    background: #d0002f;
+    opacity: 0.6;
+    text-align: left;
+    top: 0;
+    color: white;
+    width: 33.3%;
+    padding: 60px 65px 75px 25px;
+
+}
+.dropdawn{
+    position: relative;
+
+}
+.dropdawn:hover ul{
+    display: block;
+}
+.dropdawn ul{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    background-color: #2e2d32;
+    padding: 7px;
+    z-index: 2;
+    display: none;
+    min-width: 80px;
+}
+.dropdawn ul li{
+    margin-top: 0px;
+    margin-right: 0px;
+    display: block;
+    line-height: 35px;
+    text-align: left;
+    background-color: #cecece;
+    border-bottom: 1px solid #2e2d32;
+    padding-left: 15px;
+}
+.dropdawn ul li a{
+    display: block;
+}
+.owl-dots{
+
+}
+.accordion{
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+.ui-accordion .ui-accordion-header {
+    background-color: #fce7f2;
+    color: #860da6;
+    font-weight: 700;
+}
+.ui-widget-content{
+    background-color: #fef5fa;
+}
+.ui-icon, .ui-widget-content .ui-icon:before{
+    display: none;
+}
+.ui-icon, .ui-widget-content .ui-icon:after{
+
+}
+.ui-accordion .ui-accordion-header:after{
+    content: ">";
+    display: block;
+    position: absolute;
+    right: 20px;
+    color: #000;
+    top: 25%;
+}
+.ui-accordion .ui-accordion-header.ui-state-active:after{
+    content: ">";
+    transform: rotate(90deg);
+}
+.ui-accordion .ui-accordion-header:before{
+    content: ".";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 10%;
+
+}
+.ui-accordion .ui-accordion-header.ui-state-active{
+    background-color: #fef5fa;
+}
+
+header{
+    max-height: 20px;
+    height: 100%;
+    max-width: 100%;
+    background-color: #423f30;
+    color: #FFFFFF;
+}
+header h3{
+    padding-left: 10px;
+}
+.input{
+    display: block;
+}
+.label{
+    display: block;
+    border-radius: 20px;
+}
+.date{
+    display: block;
+    max-width: 65px;
+    border-radius: 20px;
+}
+.reg{
+    max-width: 145px;
+    text-align: center;
+    background-color: #ebc738;
+    color: #FFFFFF;
+}
+
+element.style{
+    position: absolute;
+    left: 85px;
+    display: block;
+}
+.ui-widget-header{
+    background-color: #a9ca44;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+    background: #a9ca44;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus{
+    background: #a9ca44;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    border: none;
+}
+
+#datepicker:hover{
+    left: 85px;
+}
+.ui-widget-header{
+    background-color: #000000;
+    color: #FFFFFF;
+
+}
+.ui-dialog .ui-dialog-titlebar-close{
+    display: none;
+
+}
+
+.input-1{
+    width: 80px;
+    margin-left: 55px;
+
+    position: relative;
+    top:-10px;
+}
+.reset{
+    max-width: 270px;
+    width: 100%;
+
+    background-color: #d5d5d5;
+    padding: 20px 20px;
+
+}
+.paragraph{
+    text-align: center;
+}
+.facebook{
+    max-width: 270px;
+    width: 100%;
+
+    background-color: #557acb;
+
+    padding: 20px 36px 20px 54px;
+}
+
+
+a i{
+    color: #FFFFFF;
+}
+.ui-widget-content{
+    background-color: #fbfbfb;
+
+}
